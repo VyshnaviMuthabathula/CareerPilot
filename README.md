@@ -168,7 +168,7 @@ GET /applications - View applications
 
 
 
-PUT /applications/{application\_id} - Update application status
+PUT /applications/{application_id} - Update application status
 
 
 

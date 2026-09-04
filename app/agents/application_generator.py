@@ -47,7 +47,7 @@ def generate_application_materials(goal: str, skills: list[str], target_role: st
         f"My technical skills include {skills_text}. "
         f"I enjoy building practical projects and solving problems "
         f"using technology. I am currently looking for an opportunity "
-        f"as a {target_role} where I can apply my skills and continue learning."
+        f"as an {target_role} where I can apply my skills and continue learning."
     )
 
     why_interested = (

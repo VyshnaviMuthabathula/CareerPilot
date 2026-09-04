@@ -19,7 +19,7 @@ def generate_interview_questions(target_role: str, skills: list[str]) -> dict:
 
     questions = [
         f"Tell me about yourself and why you are interested in the {target_role} role.",
-        f"Why do you want to work as a {target_role}?",
+        f"Why do you want to work as an {target_role}?",
         "What project are you most proud of and what did you learn from it?",
         "Describe a technical problem you faced and how you solved it.",
         "How do you learn a new technology or technical concept?"
