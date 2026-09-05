@@ -244,11 +244,22 @@ Applications remain available after restarting the FastAPI server.
 
 
 
-Core backend: Completed
+## Project Status
 
+CareerPilot is a working end-to-end AI career assistant with a FastAPI backend and React frontend.
 
+The application supports:
 
-CareerPilot currently provides a working end-to-end backend workflow for career analysis, internship matching, application preparation, interview preparation, and application tracking.
+- Career goal analysis
+- Resume skill detection
+- Internship matching
+- Recommended role selection
+- Application material generation
+- Interview preparation and practice
+- Internship application tracking
+- Persistent SQLite storage
+
+The frontend and backend are connected and working together as a complete application.
 
 
 
@@ -265,8 +276,6 @@ CareerPilot currently provides a working end-to-end backend workflow for career 
 - Personalized skill-gap recommendations
 
 - Interview answer evaluation
-
-- Web-based frontend
 
 - User authentication
 

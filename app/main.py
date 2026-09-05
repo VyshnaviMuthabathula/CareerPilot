@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from app.agents.career_agent import analyze_career_goal
@@ -17,6 +18,13 @@ app = FastAPI(
     title="CareerPilot",
     description="AI Career Agent for students",
     version="1.0.0"
+)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 
