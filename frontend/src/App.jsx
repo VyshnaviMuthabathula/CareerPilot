@@ -18,7 +18,7 @@ function App() {
   const loadApplications = async () => {
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/applications"
+        "https://careerpilot-backend-qqqf.onrender.com/applications"
       );
 
       const data = await response.json();
@@ -48,7 +48,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/applications/add",
+        "https://careerpilot-backend-qqqf.onrender.com/applications/add",
         {
           method: "POST",
           headers: {
@@ -87,7 +87,7 @@ function App() {
   ) => {
     try {
       const response = await fetch(
-        `http://127.0.0.1:8000/applications/${applicationId}`,
+        `https://careerpilot-backend-qqqf.onrender.com/applications/${applicationId}`,
         {
           method: "PUT",
           headers: {
@@ -157,7 +157,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/careerpilot/run",
+        "https://careerpilot-backend-qqqf.onrender.com/careerpilot/run",
         {
           method: "POST",
           headers: {
